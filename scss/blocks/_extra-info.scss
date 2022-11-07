@@ -1,0 +1,113 @@
+.extra-info {
+    background-color: $--primary-color;
+
+    .container {
+
+        width: 1115px;
+
+        .extra-info__video-play {
+            width: 719px;
+            height: 650px;
+            margin: 0 auto 180px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8)), url(/images/video-play_background-img.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            img {
+                display: block;
+            }
+        }
+
+        .extra-info__location {
+
+            margin-bottom: 180px;
+
+            h1 {
+                margin-bottom: 100px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 48px;
+                color: $--secondary-color;
+            }
+        }
+
+        .extra-info__questions {
+
+            padding-bottom: 180px;
+
+            h2 {
+                margin-bottom: 50px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 48px;
+                color: $--secondary-color;
+            }
+
+            &__btns {
+                display: flex;
+                gap: 35px;
+
+                p {
+                    text-align: center;
+                    font-family: $--secondary-font;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: #E7E7E7;
+                }
+
+                &__list {
+                    display: flex;
+                    gap: 30px;
+
+                    li {
+                        input {
+                            width: 255px;
+                            height: 50px;
+                            font-family: $--secondary-font;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 27px;
+                            color: #BEBEBE;
+                            background-color: $--third-color;
+                            opacity: 0.2;
+                        }
+
+                        #name {
+                            padding-left: 96px;
+                        }
+
+                        #tel {
+                            padding-left: 84px;
+                        }
+
+                        .extra-info__link {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 255px;
+                            height: 50px;
+                            text-decoration: none;
+                            font-family: $--secondary-font;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 27px;
+                            color: $--third-color;
+                            background-color: $--secondary-color;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

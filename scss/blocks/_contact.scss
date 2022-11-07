@@ -1,0 +1,106 @@
+.contact {
+
+    background-image: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(/images/contact-section__background-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .container {
+
+        display: flex;
+        gap: 35px;
+        padding: 180px 0;
+
+        .contact__info {
+            width: 535px;
+
+            h1 {
+                margin-bottom: 50px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 48px;
+                color: $--secondary-color;
+            }
+
+            p {
+                font-family: $--secondary-font;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: $--third-color;
+            }
+        }
+
+        .contact__references {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(2, 250px);
+            grid-template-rows: repeat(2, 50px);
+            align-self: flex-end;
+
+
+            #name,
+            #tel {
+                width: 255px;
+                height: 50px;
+                font-family: $--secondary-font;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 27px;
+                color: #BEBEBE;
+                border: none;
+                background: $--third-color;
+                opacity: 0.2;
+                margin-bottom: 5px;
+            }
+
+            #name {
+                padding-left: 96px;
+            }
+
+            #tel {
+                padding-left: 84px;
+            }
+
+            &__info {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h3 {
+                    font-family: $--secondary-font;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #E7E7E7;
+                }
+
+            }
+
+            .region-btn {
+
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    width: 255px;
+                    height: 50px;
+                    padding-top: 12px;
+                    padding-left: 54px;
+                    font-family: $--secondary-font;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 27px;
+                    color: $--third-color;
+                    background-color: $--secondary-color;
+                }
+            }
+        }
+
+    }
+}

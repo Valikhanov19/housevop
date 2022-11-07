@@ -1,0 +1,74 @@
+.service {
+    
+    background-color: $--primary-color;
+    
+    .container {
+        
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        .service__list {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+
+            li {
+                
+                h3 {
+                    font-family: $--third-font;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 27px;
+                    color: $--third-color;
+                }
+
+                .service__item1 {
+                    width: 193px;
+                    text-align: center;
+
+                    img {
+                        margin-bottom: 53px;
+                    }
+                }
+
+                .service__item2 {
+                    width: 133px;
+                    text-align: center;
+
+                    img {
+                        margin-bottom: 53px;
+                    }
+                }
+
+                .service__item3 {
+                    width: 134px;
+                    text-align: center;
+
+                    
+                    img {
+                        margin-bottom: 53px;
+                    }
+                }
+
+                .service__item4 {
+                    width: 124px;
+                    text-align: center;
+
+                    
+                    img {
+                        margin-top: 13px;
+                        margin-bottom: 56.33px;
+                    }
+                }
+
+
+
+            }
+
+        }
+    }
+
+
+}

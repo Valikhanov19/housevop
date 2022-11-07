@@ -1,0 +1,50 @@
+.choices {
+    background-color: $--primary-color;
+
+    h1 {
+        margin-bottom: 100px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        color: $--secondary-color;
+    }
+
+    .container {
+
+        .choices__grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 320px);
+            gap: 30px;
+
+            div {
+
+                padding-left: 50px;
+                display: flex;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                h2 {
+                    font-family: $--secondary-font;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: $--third-color;
+                    margin-bottom: 50px;
+                    align-self: flex-end;
+                }
+
+            }
+
+            .grid-left {
+
+                background-image: linear-gradient(180deg, #242B33 0%, rgba(36, 43, 51, 0) 0.01%, #242B33 100%), url(/images/choices-1-img.jpg);
+
+            }
+
+            .grid-right {
+                background-image: linear-gradient(180deg, #242B33 0%, rgba(36, 43, 51, 0) 0.01%, #242B33 100%), url(/images/choices-2-img.jpg);
+            }
+        }
+    }
+}
